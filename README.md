@@ -1,4 +1,4 @@
-# To Bee Continued !!
+# To Bee Continued !! 🐝🐝🐝
 
 Have you ever wanted to pursue the same acts as an aspiring writter but were limited by a lack of professional writing skills? ToBeeContinued uses its smart AI Solution to create scripts and visuals for you, streamlining the entire production process for all! 📝🤖🐝
 
