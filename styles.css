@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(229, 193, 96);
+    font-family: didot;
+    margin: 50px 25px;
+}
+
+nav {
+    z-index: 999;
+    margin: none;
+    display: flex;
+}
+
+#bee {
+    height: 70px;
+}
+
+#logo {
+    font-size: 25px;
+    color: #795B0E;
+    text-decoration: none;
+    font-family: didot;
+}
+
+label {
+    display: block;
+}
+
+#keywords-input {
+    margin-left: 10px;
+    width: 20em;
+    height: 2em;
+    border: none;
+    border-radius: 2px;
+    font-family: didot;
+    color: #795B0E;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+input[type="submit"] {
+    border-radius: 2px;
+    border: none;
+    font-family: didot;
+    color: #795B0E;
+    padding: 5px 50px;
+    font-size: 17px;
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+input {
+    background-color: rgb(255, 226, 147);
+}
+
+#keywords-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #795B0E;
+}
+
+#keywords-container {
+    margin-top: 70px;
+}
+
+#option {
+    margin-top: 30px;
+    color: #795B0E;
+}
+
+#options-container {
+    margin-left: 30px;
+}
+
+#description {
+    margin-top: 50px;
+    text-align: center;
+    color: #795B0E;
+}
+
+.people {
+    height: 120px;
+    border-radius: 50%;
+}
+
+.generatedArt {
+    height: 128px;
+    width: 128px;
+}
+
+#creators {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    color: #795B0E;
+}
+
+#images {
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+}
+
+#names {
+    display: flex;
+    justify-content: center;
+    gap: 105px;
+    color: #795B0E;
+}
