@@ -9,29 +9,33 @@
     <link href="results.html"/>
 </head>
 <body>
-    <div id="navbar">
-        <img id="bee" src="images/bee.png">
+    <nav>
+        <a href="index.html"><img id="bee" src="images/bee.png"></a>
         <p><a href="index.html" id="logo">To Bee Continued...</a></p>
-    </div>
+    </nav>
     <div id="options-container">
         <p id="option">Choose an option:</p>
         <label id="inline"> 
-            <input type="radio" name="option" value="0"> <span id="option0"></span>
+            <input type="radio" name="option" value="0"> <span class="prompt" id="option0"></span>
         </label>
         <label id="inline">
-            <input type="radio" name="option" value="1"> <span id="option1"></span>
+            <input type="radio" name="option" value="1"> <span class="prompt" id="option1"></span>
         </label>
         <label id="inline">
-            <input type="radio" name="option" value="2"> <span id="option2"></span>
+            <input type="radio" name="option" value="2"> <span class="prompt" id="option2"></span>
         </label> 
         <label id="inline"> 
-            <input type="radio" name="option" value="3"> <span id="option3"></span>
+            <input type="radio" name="option" value="3"> <span class="prompt" id="option3"></span>
         </label>
         <label id="inline">
-            <input type="radio" name="option" value="4"> <span id="option4"></span>
+            <input type="radio" name="option" value="4"> <span class="prompt" id="option4"></span>
         </label>
     </div>
-    <button onclick="onOptionsSubmit()">Generate!</button>
+    <div id="options-buttons">
+        <button class="submit" onclick="reGenerateIdeas()">Regenerate !</button>
+        <button class="submit" onclick="onOptionsSubmit()">Go !</button>
+    </div>
+    <p><a href="index.html" id="back">★ back ★</a></p>
     <script src="options.js"></script> 
 </body>
 </html>

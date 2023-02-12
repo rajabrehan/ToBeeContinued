@@ -11,23 +11,26 @@
 </head>
 <body>
     <nav>
-        <img id="bee" src="images/bee.png">
+        <a href="index.html"><img id="bee" src="images/bee.png"></a>
         <p id="nav"><a href="index.html" id="logo">To Bee Continued...</a></p>
     </nav>
     <div>
         <h2 id="title"></h2>
         <h3 id ="idea"></h3>
         <p id="scriptText"></p>
-        <img id="img0" src="images/loading.png" class="generatedArt"/>
-        <img id="img1" src="images/loading.png" class="generatedArt"/>
-        <img id="img2" src="images/loading.png" class="generatedArt"/>
+        <div id="pics">
+            <img id="img0" src="images/loading.png" class="generatedArt"/>
+            <img id="img1" src="images/loading.png" class="generatedArt"/>
+            <img id="img2" src="images/loading.png" class="generatedArt"/>
+        </div>
     </div>
-    <div>
-        <button onclick="reGenerateTitle()">Regenerate Title</button>
-        <button onclick="reGenerateScript()">Regenerate Story</button>
-        <button onclick="reGenerateImages()">Regenerate Images</button>
+    <div id="regenerate-buttons">
+        <button class="regenerate-buttons" onclick="reGenerateTitle()">Regenerate Title</button>
+        <button class="regenerate-buttons" onclick="reGenerateScript()">Regenerate Story</button>
+        <button class="regenerate-buttons" onclick="reGenerateImages()">Regenerate Images</button>
 
     </div>
+    <p><a href="options.html" id="back">★ back ★</a></p>
     <div>
         <p id="creators">Meet the Creators!</p>
         <div id="creators-container">

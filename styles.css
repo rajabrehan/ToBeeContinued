@@ -1,11 +1,10 @@
 body {
     background-color: rgb(229, 193, 96);
     font-family: didot;
-    margin: 50px 25px;
+    margin: 20px 25px;
 }
 
 nav {
-    z-index: 999;
     margin: none;
     display: flex;
 }
@@ -19,6 +18,11 @@ nav {
     color: #795B0E;
     text-decoration: none;
     font-family: didot;
+}
+
+#logo:hover {
+    color: #ac8511;
+    transition: 0.7s ease-in-out;
 }
 
 label {
@@ -35,26 +39,31 @@ label {
     color: #795B0E;
     padding-left: 5px;
     font-size: 13px;
+    background-color: rgb(247, 212, 118);
 }
 
-input[type="submit"] {
+button {
+    margin-top: 20px;
     border-radius: 2px;
     border: none;
     font-family: didot;
     color: #795B0E;
     padding: 5px 50px;
     font-size: 17px;
+    background-color: rgb(255, 226, 147);
 }
 
-#submit {
+#options-buttons {
     display: flex;
     justify-content: center;
-    text-decoration: none;
-    margin-top: 30px;
+    gap: 30px;
 }
 
-input {
-    background-color: rgb(255, 226, 147);
+/* regenerate, go */
+.submit:hover {
+    background-color: rgb(214, 167, 47);
+    color: rgb(255, 239, 221);
+    transition: 0.7s ease-in-out;
 }
 
 #keywords-label {
@@ -68,13 +77,29 @@ input {
     margin-top: 70px;
 }
 
+/* see options button */
+#input-submit {
+    display: flex;
+    justify-content: center;
+}
+
+/* "see options button */
+#input-submit:hover {
+    background-color: rgb(214, 167, 47);
+    color: rgb(255, 226, 193);
+    transition: 0.7s ease-in-out;
+}
+
 #option {
     margin-top: 30px;
     color: #795B0E;
+    font-weight: bolder;
 }
 
 #options-container {
-    margin-left: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
 }
 
 #description {
@@ -101,6 +126,10 @@ input {
     color: #795B0E;
 }
 
+#creators-container {
+    margin-bottom: 120px;
+}
+
 #images {
     display: flex;
     justify-content: center;
@@ -112,4 +141,81 @@ input {
     justify-content: center;
     gap: 105px;
     color: #795B0E;
+}
+
+#back {
+    text-decoration: none;
+    color: #795B0E;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+#back:hover {
+    color: #ac8511;
+    transition: 0.7s ease-in-out;
+}
+
+.prompt {
+    color: #795B0E;
+}
+
+.prompt:hover {
+    color: rgb(28, 15, 2);
+    transition: 0.7s ease-in-out;
+}
+
+#inline {
+    padding-bottom: 10px;
+}
+
+/* results */
+#title {
+    color: #795B0E;
+    text-align: center;
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+#idea {
+    color: #795B0E;
+    text-align: center;
+    margin: 0px 30px 20px;
+    font-weight: normal;
+}
+
+#scriptText {
+    color: #795B0E;
+    text-align: center;
+    margin: 0px 90px 35px;
+}
+
+#pics {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.generatedArt {
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.regenerate-buttons:hover {
+    background-color: rgb(214, 167, 47);
+    color: rgb(255, 226, 193);
+    transition: 0.7s ease-in-out;
+}
+
+#regenerate-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#see-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
 }
